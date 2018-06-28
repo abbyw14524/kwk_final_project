@@ -1,0 +1,113 @@
+h1.Heading1{text-decoration-line: underline;
+  text-decoration-style: wavy;color: black;text-shadow: 2px 2px red;}
+
+body
+{
+  margin:0;
+  padding: 0;
+  animation: bgcolor infinite 7s;
+}
+h1 
+{
+  margin:0;
+  padding:0;
+}
+@keyframes bgcolor{
+  0%{
+    background-color:gray;
+  }
+  20%{
+    background-color:yellow;
+  }
+  40%{
+    background-color:lightblue;
+  }
+  60%{
+    background-color:aqua;
+  }
+  80%{
+    background-color:fuchsia;
+}
+100%{
+    background-color:pink;
+}
+}
+p1 {color:blue;font-size:18px;font-family:verdana;}
+h2{text-align: right;font-size:20px; 
+    padding-right: 25px;
+}
+
+.answers{ padding-right: 25px;
+  font-size: 20px;
+}
+.intro{padding-left: 1px;
+  font-size: 20px;
+}
+
+.column1{font-size: 20px;}
+.column2{font-size: 20px;}
+.foodquiz{font-size: 30px;}
+.directions{font-size: 30px;}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+   
+}
+
+.yum {padding-left: 15px;}
+p3:after{
+  content: "🤔";
+}
+.advice:after{content:"💭"}
+.quiz:after{content:"😊"}
+
+p{font-size: 30px;
+}
+
+.abbbr{font-size: 30px;}
+a:hover {
+  background-color: gray;
+  font-size:25px;
+}
+
+style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.column1 {
+    float: left;
+    width: 25%;
+    padding: 15px;
+}
+ .column2 {
+    float: left;
+    width: 30%;
+    padding: 15px;
+}
+ .column3 {
+    float: left;
+    width: 45%;
+    padding: 10px;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+   
+
+
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
+
